@@ -2,6 +2,7 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <TitleVue/>
+    <Hero/>
 
 
   </div>
@@ -9,12 +10,14 @@
 
 <script>
 import TitleVue from './components/TitleVue.vue'
+import Hero from './components/Hero.vue'
 
 
 export default {
   name: 'App',
   components: {
-    TitleVue
+    TitleVue,
+    Hero
   }
 }
 </script>
